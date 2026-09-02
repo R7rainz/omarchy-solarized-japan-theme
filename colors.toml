@@ -1,0 +1,41 @@
+# Solarized Japan for Omarchy
+# Palette source: https://github.com/craftzdog/solarized-osaka.nvim
+# Core hues are exact Solarized Osaka values. Semantic foreground and
+# selection roles are intentionally contrast-adjusted for desktop readability.
+
+mode = "dark"
+
+# Omarchy foundation
+accent              = "#29a298" # cyan
+foreground          = "#adb7b7" # base1, brighter readable text
+background          = "#001419" # bg / base04
+selection           = "#29a298" # cyan
+selection_foreground = "#fdf5e2" # base3
+selection_background = "#268bd3" # blue, visible selection/suggestion background
+
+# Omarchy surface and text roles
+dark_background     = "#001419" # base04
+darker_background   = "#001419" # base04
+lighter_background  = "#002c38" # base03
+muted               = "#637981" # base00, visible but subdued
+dark_foreground     = "#839395" # Solarized Osaka fg
+light_foreground    = "#ede7d3" # base2
+bright_foreground   = "#fdf5e2" # base3
+
+# Solarized Osaka accents
+red                 = "#db302d"
+yellow              = "#b28500"
+orange              = "#c94c16"
+green               = "#849900"
+cyan                = "#29a298"
+blue                = "#268bd3"
+magenta             = "#d23681"
+brown               = "#c94c16"
+
+# Brighter accent variants from the official palette
+bright_red          = "#fb7673"
+bright_yellow       = "#fed54c"
+bright_green        = "#bcff51"
+bright_cyan         = "#6cf8ed"
+bright_blue         = "#78c5fb"
+bright_magenta      = "#f961aa"
