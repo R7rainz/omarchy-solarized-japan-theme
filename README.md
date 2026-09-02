@@ -11,7 +11,7 @@ An unofficial [Omarchy](https://omarchy.org/) theme that combines a Japanese-ins
 - Solarized Osaka core palette adapted to Omarchy's semantic color roles
 - Contrast-adjusted foreground and selection colors for readable terminal and shell UI
 - Four bundled backgrounds, including an Omarchy wordmark wallpaper
-- `Yaru-dark` file-manager icons
+- `Yaru-sage` file-manager icons, matching Omarchy's Osaka Jade theme
 - Custom Japanese Plymouth unlock mark and selector preview
 
 ## Installation
@@ -77,7 +77,7 @@ The core hues and extended bright accents are exact values emitted by Solarized 
 ## Theme files
 
 - `colors.toml` — Omarchy palette and generated-app color source
-- `icons.theme` — icon theme selection (`Yaru-dark`)
+- `icons.theme` — icon theme selection (`Yaru-sage`)
 - `backgrounds/` — selectable wallpapers
 - `preview.png` — theme selector preview
 - `unlock.png` — transparent Japanese Plymouth mark
