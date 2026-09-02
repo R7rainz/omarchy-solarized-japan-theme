@@ -8,7 +8,7 @@ An unofficial [Omarchy](https://omarchy.org/) theme that combines a Japanese-ins
 
 - Solarized Osaka core palette adapted to Omarchy's semantic color roles
 - Contrast-adjusted foreground and selection colors for readable terminal and shell UI
-- Three bundled backgrounds, including an Omarchy wordmark wallpaper
+- Two bundled backgrounds, including an Omarchy wordmark wallpaper
 - `Yaru-dark` file-manager icons
 - Matching transparent Plymouth unlock logo and unlock preview
 
