@@ -11,7 +11,6 @@ This project adapts the Solarized Osaka color palette:
 Solarized Osaka is inspired by the original Solarized color scheme created by
 Ethan Schoonover: https://ethanschoonover.com/solarized/
 
-The unlock wordmark is a color adaptation of an Omarchy stock theme asset.
 Omarchy names, logos, and marks remain the property of their respective owners.
 
 The following bundled wallpaper files have no verified open-source license or
@@ -19,6 +18,8 @@ embedded authorship metadata and are NOT covered by this repository's Apache
 License 2.0 grant:
 
   backgrounds/background1.jpg
+  backgrounds/background2.jpg
+  backgrounds/background3.jpg
   preview.png (a format-converted copy of background1.jpg)
 
 Their copyrights remain with their original creators. Confirm redistribution
