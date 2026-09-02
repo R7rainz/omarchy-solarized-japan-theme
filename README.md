@@ -8,9 +8,9 @@ An unofficial [Omarchy](https://omarchy.org/) theme that combines a Japanese-ins
 
 - Solarized Osaka core palette adapted to Omarchy's semantic color roles
 - Contrast-adjusted foreground and selection colors for readable terminal and shell UI
-- Two bundled backgrounds, including an Omarchy wordmark wallpaper
+- Four bundled backgrounds, including an Omarchy wordmark wallpaper
 - `Yaru-dark` file-manager icons
-- Matching transparent Plymouth unlock logo and unlock preview
+- Custom Japanese Plymouth unlock mark and selector preview
 
 ## Installation
 
@@ -53,6 +53,8 @@ omarchy theme remove solarized-japan
 
 ## Palette
 
+![Solarized Japan color palette](palette.svg)
+
 | Role | Color |
 | --- | --- |
 | Background | `#001419` |
@@ -76,14 +78,14 @@ The core hues and extended bright accents are exact values emitted by Solarized 
 - `icons.theme` — icon theme selection (`Yaru-dark`)
 - `backgrounds/` — selectable wallpapers
 - `preview.png` — theme selector preview
-- `unlock.png` — transparent Plymouth wordmark
+- `unlock.png` — transparent Japanese Plymouth mark
 - `preview-unlock.png` — unlock selector preview
 
 ## Credits
 
 - [Takuya Matsuyama (craftzdog / Devaslife)](https://github.com/craftzdog) for [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim), the palette this theme adapts
 - [Ethan Schoonover](https://ethanschoonover.com/solarized/) for the original Solarized color scheme
-- [Omarchy](https://omarchy.org/) for the desktop environment and stock wordmark mask used by the unlock artwork
+- [Omarchy](https://omarchy.org/) for the desktop environment and unlock tooling
 
 This project is independent and is not officially affiliated with Solarized Osaka, Devaslife, or Omarchy.
 
