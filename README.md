@@ -2,7 +2,7 @@
 
 An unofficial [Omarchy](https://omarchy.org/) theme that combines a Japanese-inspired wallpaper set with the dark palette from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim).
 
-![Solarized Japan theme preview](preview.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36e79a38-82b9-4a01-9334-ba6f1891ad3f" />
 
 ## Features
 
