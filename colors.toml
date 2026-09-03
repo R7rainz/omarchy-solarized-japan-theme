@@ -8,6 +8,7 @@ mode = "dark"
 # Omarchy foundation
 accent              = "#29a298" # cyan
 foreground          = "#adb7b7" # base1, brighter readable text
+cursor              = "#fdf5e2" # bright foreground; gallery/legacy compatibility
 background          = "#001419" # bg / base04
 selection           = "#29a298" # cyan
 selection_foreground = "#fdf5e2" # base3
@@ -39,3 +40,22 @@ bright_green        = "#bcff51"
 bright_cyan         = "#6cf8ed"
 bright_blue         = "#78c5fb"
 bright_magenta      = "#f961aa"
+
+# Legacy ANSI aliases used by community galleries and older Omarchy templates.
+# The semantic palette above remains the source of truth for Omarchy 4.
+color0              = "#001419" # background
+color1              = "#db302d" # red
+color2              = "#849900" # green
+color3              = "#b28500" # yellow / antique gold
+color4              = "#268bd3" # blue
+color5              = "#d23681" # magenta
+color6              = "#29a298" # cyan
+color7              = "#adb7b7" # foreground
+color8              = "#637981" # muted
+color9              = "#fb7673" # bright red
+color10             = "#bcff51" # bright green
+color11             = "#c4a15a" # bright antique gold
+color12             = "#78c5fb" # bright blue
+color13             = "#f961aa" # bright magenta
+color14             = "#6cf8ed" # bright cyan
+color15             = "#fdf5e2" # bright foreground
