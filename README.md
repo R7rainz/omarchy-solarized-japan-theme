@@ -49,6 +49,59 @@ omarchy theme bg next
 The unlock artwork appears under **Style > Unlock**. `unlock.png` is the
 transparent Plymouth mark; `preview-unlock.png` is the selector preview.
 
+### Blurred SDDM unlock screen
+
+`preview-unlock.png` is a static selector/README preview. The normal Omarchy 4
+theme interface applies `unlock.png` and palette colors to the system SDDM
+theme, but it does not copy a theme wallpaper into SDDM or load a theme-owned
+`Main.qml` file. Therefore a blurred preview does not automatically make the
+real SDDM unlock screen blurred.
+
+This repository includes `sddm-background.png`, the same fixed pre-blurred
+artwork used behind the logo in `preview-unlock.png`. It is deliberately a
+separate SDDM asset and never follows the user's selected desktop wallpaper.
+
+To add the effect locally, install the included image as `background.png` in
+the root-owned SDDM theme directory:
+
+```bash
+sudo install -o root -g root -m 0644 sddm-background.png \
+  /usr/share/sddm/themes/omarchy/background.png
+```
+
+Back up the SDDM layout before editing it:
+
+```bash
+sudo cp -a /usr/share/sddm/themes/omarchy/Main.qml \
+  /usr/share/sddm/themes/omarchy/Main.qml.solarized-japan.bak
+sudoedit /usr/share/sddm/themes/omarchy/Main.qml
+```
+
+Place this before the existing `Connections` and login `Column` blocks so the
+login UI remains above the background:
+
+```qml
+Image {
+  anchors.fill: parent
+  source: "background.png"
+  fillMode: Image.PreserveAspectCrop
+  smooth: true
+}
+
+Rectangle {
+  anchors.fill: parent
+  color: "#001419"
+  opacity: 0.30
+}
+```
+
+Use the fixed `sddm-background.png` from this repository; do not point the
+QML at `~/.config/omarchy/current/background`, or the SDDM image will change
+with the desktop wallpaper. Reapply the image and QML edit after running an
+Omarchy Plymouth/SDDM refresh or applying a system update, because those
+commands rebuild the root-owned SDDM theme. This is an optional machine-local
+customization, not an automatically applied part of the portable theme format.
+
 ## Palette
 
 ![Solarized Japan color palette](palette.svg)
@@ -83,6 +136,7 @@ solarized-japan/
 ├── preview.png                  # theme-selector preview
 ├── unlock.png                   # transparent Plymouth mark
 ├── preview-unlock.png           # unlock-selector preview
+├── sddm-background.png          # fixed blurred SDDM artwork
 ├── palette.svg                  # documented palette preview
 ├── theme.yaml                   # repository/gallery metadata
 ├── LICENSE
