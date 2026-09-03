@@ -3,7 +3,7 @@
 An unofficial Omarchy theme combining a dark Japanese-inspired desktop with
 the palette of [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim).
 
-![Solarized Japan preview](preview.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41de43e2-d5ad-4643-90fd-fbafc0a2b383" />
 
 ![Solarized Japan unlock preview](preview-unlock.png)
 
