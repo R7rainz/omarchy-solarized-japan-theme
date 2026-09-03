@@ -1,18 +1,22 @@
 # Solarized Japan for Omarchy
 
-An unofficial [Omarchy](https://omarchy.org/) theme that combines a Japanese-inspired wallpaper set with the dark palette from [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim).
+An unofficial Omarchy theme combining a dark Japanese-inspired desktop with
+the palette of [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim).
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/36e79a38-82b9-4a01-9334-ba6f1891ad3f" />
-<img width="1920" height="1080" alt="preview-unlock" src="https://github.com/user-attachments/assets/346f6304-86fd-4295-937f-2029c7628821" />
+![Solarized Japan preview](preview.png)
 
+![Solarized Japan unlock preview](preview-unlock.png)
 
 ## Features
 
-- Solarized Osaka core palette adapted to Omarchy's semantic color roles
-- Contrast-adjusted foreground and selection colors for readable terminal and shell UI
-- Four bundled backgrounds, including an Omarchy wordmark wallpaper
-- `Yaru-sage` file-manager icons, matching Omarchy's Osaka Jade theme
-- Custom Japanese Plymouth unlock mark and selector preview
+- Solarized Osaka palette adapted to Omarchy 4 semantic color roles
+- High-contrast terminal selections, suggestions, and readable foregrounds
+- Seven original Japanese-inspired wallpapers, including a wordmark wallpaper
+- `Yaru-sage` file-manager icons
+- Japanese Plymouth unlock mark displaying `オマーチー`
+- Blurred shrine-and-bamboo unlock preview with warm antique-gold lighting
+- Generated terminal, shell, editor, browser, and system-tool themes through
+  Omarchy's `colors.toml` templates
 
 ## Installation
 
@@ -28,30 +32,22 @@ Or install from a terminal:
 omarchy theme install https://github.com/R7rainz/omarchy-solarized-japan.git
 ```
 
-Omarchy strips the `omarchy-` repository prefix, installs the theme as `solarized-japan`, and applies it automatically.
-
-## Usage
-
-Apply the theme:
+Apply the theme manually with:
 
 ```bash
 omarchy theme set solarized-japan
 ```
 
-Choose a wallpaper:
+## Wallpaper and unlock controls
+
+Cycle wallpapers with:
 
 ```bash
-omarchy theme bg-switcher
+omarchy theme bg next
 ```
 
-The matching unlock design appears under **Style > Unlock**.
-
-Update or remove the installed theme:
-
-```bash
-omarchy theme update
-omarchy theme remove solarized-japan
-```
+The unlock artwork appears under **Style > Unlock**. `unlock.png` is the
+transparent Plymouth mark; `preview-unlock.png` is the selector preview.
 
 ## Palette
 
@@ -67,33 +63,53 @@ omarchy theme remove solarized-japan
 | Cyan / accent | `#29a298` |
 | Blue | `#268bd3` |
 | Green | `#849900` |
-| Yellow | `#b28500` |
-| Bright antique gold | `#c4a15a` |
+| Antique gold | `#c4a15a` |
 | Orange | `#c94c16` |
 | Red | `#db302d` |
 | Magenta | `#d23681` |
 
-The palette starts from Solarized Osaka. Foreground, selection, and antique-gold role choices are Omarchy-specific readability adaptations.
+The palette starts from Solarized Osaka. Foreground, selection, and
+antique-gold roles are tuned for Omarchy readability.
 
-## Theme files
+## Theme layout
 
-- `colors.toml` — Omarchy palette and generated-app color source
-- `icons.theme` — icon theme selection (`Yaru-sage`)
-- `backgrounds/` — selectable wallpapers
-- `preview.png` — theme selector preview
-- `unlock.png` — transparent Japanese Plymouth mark
-- `preview-unlock.png` — unlock selector preview
+```text
+solarized-japan/
+├── backgrounds/                 # selectable wallpapers
+│   ├── background1.jpg ... background6.jpg
+│   └── background7.png          # wordmark wallpaper
+├── colors.toml                  # palette source of truth
+├── icons.theme                  # Yaru-sage
+├── preview.png                  # theme-selector preview
+├── unlock.png                   # transparent Plymouth mark
+├── preview-unlock.png           # unlock-selector preview
+├── palette.svg                  # documented palette preview
+├── theme.yaml                   # repository/gallery metadata
+├── LICENSE
+├── NOTICE
+└── README.md
+```
 
-## Credits
+`theme.yaml` is repository metadata for gallery/submission tooling; Omarchy's
+runtime theme source remains `colors.toml`.
 
-- [Takuya Matsuyama (craftzdog / Devaslife)](https://github.com/craftzdog) for [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim), the palette this theme adapts
-- [Ethan Schoonover](https://ethanschoonover.com/solarized/) for the original Solarized color scheme
-- [Omarchy](https://omarchy.org/) for the desktop environment and unlock tooling
+## Credits and licensing
 
-This project is independent and is not officially affiliated with Solarized Osaka, Devaslife, or Omarchy.
+- [Takuya Matsuyama / craftzdog (Devaslife)](https://github.com/craftzdog)
+  for [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)
+- [Ethan Schoonover](https://ethanschoonover.com/solarized/) for the original
+  Solarized color scheme
+- [Omarchy](https://omarchy.org/) for the desktop environment and theming
+  tooling
 
-## License
+Theme configuration, documentation, palette artwork, and project-created
+wallpaper/unlock artwork are provided under the [Apache License 2.0](LICENSE),
+subject to the third-party attribution and trademark notes in [NOTICE](NOTICE).
 
-Theme configuration and original project material are available under the [Apache License 2.0](LICENSE). Third-party wallpaper artwork is excluded from that grant; see [NOTICE](NOTICE) before redistributing the repository.
+This project is independent and is not officially affiliated with Omarchy,
+Solarized Osaka, Devaslife, or Ethan Schoonover.
 
-Issues and pull requests are welcome.
+## Contributing
+
+Issues and pull requests are welcome. Please include the wallpaper/artwork
+source or permission details when contributing new visual assets.
