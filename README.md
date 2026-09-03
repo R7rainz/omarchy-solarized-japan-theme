@@ -68,11 +68,12 @@ omarchy theme remove solarized-japan
 | Blue | `#268bd3` |
 | Green | `#849900` |
 | Yellow | `#b28500` |
+| Bright antique gold | `#c4a15a` |
 | Orange | `#c94c16` |
 | Red | `#db302d` |
 | Magenta | `#d23681` |
 
-The core hues and extended bright accents are exact values emitted by Solarized Osaka. The foreground and selection role choices are an Omarchy-specific readability adaptation.
+The palette starts from Solarized Osaka. Foreground, selection, and antique-gold role choices are Omarchy-specific readability adaptations.
 
 ## Theme files
 
