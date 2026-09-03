@@ -11,17 +11,15 @@ This project adapts the Solarized Osaka color palette:
 Solarized Osaka is inspired by the original Solarized color scheme created by
 Ethan Schoonover: https://ethanschoonover.com/solarized/
 
-Omarchy names, logos, and marks remain the property of their respective owners.
+The bundled wallpapers, unlock artwork, previews, and palette artwork were
+created or composed specifically for this project by Ronak Kamboj, with AI
+assistance for the scenic artwork. They are included under the Apache License
+2.0 to the extent copyright law recognizes rights in those works. No external
+wallpaper downloads are intentionally bundled.
 
-The following bundled wallpaper files have no verified open-source license or
-embedded authorship metadata and are NOT covered by this repository's Apache
-License 2.0 grant:
+The root preview is a resized copy of backgrounds/background1.jpg, and the
+unlock preview is a composition of the project artwork and unlock UI.
 
-  backgrounds/background1.jpg
-  backgrounds/background2.jpg
-  backgrounds/background3.jpg
-  preview.png (a format-converted copy of background1.jpg)
-
-Their copyrights remain with their original creators. Confirm redistribution
-permission or replace these files with appropriately licensed artwork before
-promoting this repository as fully open source.
+Omarchy names, logos, and marks remain the property of their respective
+owners. This project is not affiliated with or endorsed by Omarchy,
+Solarized Osaka, or Devaslife.
