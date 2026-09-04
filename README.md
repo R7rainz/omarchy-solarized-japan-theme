@@ -11,7 +11,7 @@ the palette of [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nv
 
 - Solarized Osaka palette adapted to Omarchy 4 semantic color roles
 - High-contrast terminal selections, suggestions, and readable foregrounds
-- Seven original Japanese-inspired wallpapers, including a wordmark wallpaper
+- Nine original Japanese-inspired wallpapers, including a wordmark wallpaper
 - `Yaru-sage` file-manager icons
 - Japanese Plymouth unlock mark displaying `オマーチー`
 - Blurred shrine-and-bamboo unlock preview with warm antique-gold lighting
@@ -130,7 +130,9 @@ antique-gold roles are tuned for Omarchy readability.
 solarized-japan/
 ├── backgrounds/                 # selectable wallpapers
 │   ├── background1.jpg ... background6.jpg
-│   └── background7.png          # wordmark wallpaper
+│   ├── background7.png          # wordmark wallpaper
+│   ├── background8.jpg          # minimalist dark Japanese garden wallpaper
+│   └── background9.jpg          # lighter twilight valley wallpaper
 ├── colors.toml                  # palette source of truth
 ├── icons.theme                  # Yaru-sage
 ├── preview.png                  # theme-selector preview
