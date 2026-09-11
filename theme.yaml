@@ -1,5 +1,6 @@
 name: solarized-japan
 slug: "solarized-japan"
+hyprland_version: "4.0"
 display_name: Solarized Japan
 version: 1.0.0
 author: Ronak Kamboj
