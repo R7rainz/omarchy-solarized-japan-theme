@@ -2,9 +2,9 @@ name: solarized-japan
 slug: "solarized-japan"
 hyprland_version: "4.0"
 display_name: Solarized Japan
-version: 1.0.0
+version: 1.1.0
 author: Ronak Kamboj
-description: A dark Japanese-inspired Omarchy theme using the Solarized Osaka palette, traditional scenery, and antique-gold accents.
+description: A dark Japanese-inspired Omarchy theme using the exact Solarized Osaka palette and clean-painterly scenery.
 repository: https://github.com/R7rainz/omarchy-solarized-japan
 license: Apache-2.0
 variant: dark

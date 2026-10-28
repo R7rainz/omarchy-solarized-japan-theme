@@ -3,15 +3,15 @@
 An unofficial Omarchy theme combining a dark Japanese-inspired desktop with
 the palette of [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim).
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41de43e2-d5ad-4643-90fd-fbafc0a2b383" />
+![Solarized Japan desktop preview](preview.png)
 
 ![Solarized Japan unlock preview](preview-unlock.png)
 
 ## Features
 
-- Solarized Osaka palette adapted to Omarchy 4 semantic color roles
-- High-contrast terminal selections, suggestions, and readable foregrounds
-- Nine original Japanese-inspired wallpapers, including a wordmark wallpaper
+- Exact Solarized Osaka palette adapted to Omarchy semantic color roles
+- Distinct upstream 300-level shades for bright terminal colors
+- Five clean-painterly Japanese wallpapers with restrained detail
 - `Yaru-sage` file-manager icons
 - Japanese Plymouth unlock mark displaying `オマーチー`
 - Blurred shrine-and-bamboo unlock preview with warm antique-gold lighting
@@ -109,30 +109,37 @@ customization, not an automatically applied part of the portable theme format.
 | Role | Color |
 | --- | --- |
 | Background | `#001419` |
-| Raised surface | `#002c38` |
-| Foreground | `#adb7b7` |
+| Raised surface / selection | `#002c38` |
+| Border | `#063540` |
+| Foreground | `#839395` |
+| Dark foreground | `#576d74` |
+| Light foreground | `#9eabac` |
 | Bright foreground | `#fdf5e2` |
 | Muted | `#637981` |
 | Cyan / accent | `#29a298` |
 | Blue | `#268bd3` |
 | Green | `#849900` |
-| Antique gold | `#c4a15a` |
+| Yellow | `#b28500` |
 | Orange | `#c94c16` |
 | Red | `#db302d` |
 | Magenta | `#d23681` |
+| Bright red | `#f55350` |
+| Bright yellow | `#ffbf00` |
+| Bright green | `#b7f900` |
+| Bright cyan | `#2aeddd` |
+| Bright blue | `#46acf5` |
+| Bright magenta | `#f254a0` |
 
-The palette starts from Solarized Osaka. Foreground, selection, and
-antique-gold roles are tuned for Omarchy readability.
+The base, text, and accent values come directly from Solarized Osaka at
+upstream commit `a21176efde15fab21fabda0bf2ba123ed6d7332d`. Omarchy's bright
+ANSI slots use the palette's exact 300-level accent shades.
 
 ## Theme layout
 
 ```text
 solarized-japan/
 ├── backgrounds/                 # selectable wallpapers
-│   ├── background1.jpg ... background6.jpg
-│   ├── background7.png          # wordmark wallpaper
-│   ├── background8.jpg          # minimalist dark Japanese garden wallpaper
-│   └── background9.jpg          # lighter twilight valley wallpaper
+│   └── background1.jpg ... background5.jpg
 ├── colors.toml                  # palette source of truth
 ├── icons.theme                  # Yaru-sage
 ├── preview.png                  # theme-selector preview
