@@ -1,63 +1,62 @@
 # Solarized Japan for Omarchy
 # Palette source: https://github.com/craftzdog/solarized-osaka.nvim
-# Solarized Osaka is the base palette. Semantic foreground, selection, and
-# antique-gold roles are tuned for Omarchy readability.
+# Upstream snapshot: a21176efde15fab21fabda0bf2ba123ed6d7332d
+# Exact Solarized Osaka tokens mapped to Omarchy semantic roles.
 
 mode = "dark"
 
 # Omarchy foundation
-accent              = "#29a298" # cyan
-foreground          = "#adb7b7" # base1, brighter readable text
-cursor              = "#fdf5e2" # bright foreground; gallery/legacy compatibility
-background          = "#001419" # bg / base04
-border              = "#002c38"
-comment             = "#637981"
-selection           = "#29a298" # cyan
-selection_foreground = "#fdf5e2" # base3
-selection_background = "#268bd3" # blue, visible selection/suggestion background
+accent               = "#29a298" # cyan
+foreground           = "#839395" # fg
+cursor               = "#839395" # fg
+background           = "#001419" # base04
+border               = "#063540" # base02
+comment              = "#637981" # base00
+selection            = "#002c38" # base03
+selection_foreground = "#839395" # fg
+selection_background = "#002c38" # base03
 
 # Omarchy surface and text roles
-dark_background     = "#001419" # base04
-darker_background   = "#001419" # base04
-lighter_background  = "#002c38" # base03
-muted               = "#637981" # base00, visible but subdued
-dark_foreground     = "#839395" # Solarized Osaka fg
-light_foreground    = "#ede7d3" # base2
-bright_foreground   = "#fdf5e2" # base3
+dark_background      = "#001419" # base04
+darker_background    = "#001419" # base04
+lighter_background   = "#002c38" # base03
+muted                = "#637981" # base00
+dark_foreground      = "#576d74" # base01
+light_foreground     = "#9eabac" # base0
+bright_foreground    = "#fdf5e2" # base3
 
 # Solarized Osaka accents
-red                 = "#db302d"
-yellow              = "#b28500"
-orange              = "#c94c16"
-green               = "#849900"
-cyan                = "#29a298"
-blue                = "#268bd3"
-magenta             = "#d23681"
-brown               = "#c94c16"
+red                  = "#db302d"
+yellow               = "#b28500"
+orange               = "#c94c16"
+green                = "#849900"
+cyan                 = "#29a298"
+blue                 = "#268bd3"
+magenta              = "#d23681"
+brown                = "#c94c16"
 
-# Brighter accent variants, with a muted antique-gold adaptation
-bright_red          = "#fb7673"
-bright_yellow       = "#c4a15a" # antique gold
-bright_green        = "#bcff51"
-bright_cyan         = "#6cf8ed"
-bright_blue         = "#78c5fb"
-bright_magenta      = "#f961aa"
+# Exact 300-level accent shades for Omarchy's bright ANSI roles
+bright_red           = "#f55350"
+bright_yellow        = "#ffbf00"
+bright_green         = "#b7f900"
+bright_cyan          = "#2aeddd"
+bright_blue          = "#46acf5"
+bright_magenta       = "#f254a0"
 
-# Legacy ANSI aliases used by community galleries and older Omarchy templates.
-# The semantic palette above remains the source of truth for Omarchy 4.
-color0              = "#001419" # background
-color1              = "#db302d" # red
-color2              = "#849900" # green
-color3              = "#b28500" # yellow / antique gold
-color4              = "#268bd3" # blue
-color5              = "#d23681" # magenta
-color6              = "#29a298" # cyan
-color7              = "#adb7b7" # foreground
-color8              = "#637981" # muted
-color9              = "#fb7673" # bright red
-color10             = "#bcff51" # bright green
-color11             = "#c4a15a" # bright antique gold
-color12             = "#78c5fb" # bright blue
-color13             = "#f961aa" # bright magenta
-color14             = "#6cf8ed" # bright cyan
-color15             = "#fdf5e2" # bright foreground
+# Legacy ANSI aliases used by community galleries and older Omarchy templates
+color0               = "#001419"
+color1               = "#db302d"
+color2               = "#849900"
+color3               = "#b28500"
+color4               = "#268bd3"
+color5               = "#d23681"
+color6               = "#29a298"
+color7               = "#839395"
+color8               = "#637981"
+color9               = "#f55350"
+color10              = "#b7f900"
+color11              = "#ffbf00"
+color12              = "#46acf5"
+color13              = "#f254a0"
+color14              = "#2aeddd"
+color15              = "#fdf5e2"

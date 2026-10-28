@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
   <title id="title">Solarized Japan color palette</title>
-  <desc id="desc">Twelve labeled color swatches used by the Solarized Japan Omarchy theme.</desc>
+  <desc id="desc">Twelve exact Solarized Osaka color swatches used by the Solarized Japan Omarchy theme.</desc>
   <rect width="960" height="200" rx="16" fill="#001419"/>
   <g font-family="sans-serif" font-size="13" text-anchor="middle">
-    <g transform="translate(18 18)"><rect width="144" height="72" rx="8" fill="#001419" stroke="#637981"/><text x="72" y="31" fill="#fdf5e2">Background</text><text x="72" y="52" fill="#adb7b7">#001419</text></g>
-    <g transform="translate(174 18)"><rect width="144" height="72" rx="8" fill="#002c38"/><text x="72" y="31" fill="#fdf5e2">Raised surface</text><text x="72" y="52" fill="#adb7b7">#002c38</text></g>
-    <g transform="translate(330 18)"><rect width="144" height="72" rx="8" fill="#adb7b7"/><text x="72" y="31" fill="#001419">Foreground</text><text x="72" y="52" fill="#002c38">#adb7b7</text></g>
+    <g transform="translate(18 18)"><rect width="144" height="72" rx="8" fill="#001419" stroke="#637981"/><text x="72" y="31" fill="#fdf5e2">Background</text><text x="72" y="52" fill="#839395">#001419</text></g>
+    <g transform="translate(174 18)"><rect width="144" height="72" rx="8" fill="#002c38"/><text x="72" y="31" fill="#fdf5e2">Raised surface</text><text x="72" y="52" fill="#839395">#002c38</text></g>
+    <g transform="translate(330 18)"><rect width="144" height="72" rx="8" fill="#839395"/><text x="72" y="31" fill="#001419">Foreground</text><text x="72" y="52" fill="#002c38">#839395</text></g>
     <g transform="translate(486 18)"><rect width="144" height="72" rx="8" fill="#fdf5e2"/><text x="72" y="31" fill="#001419">Bright foreground</text><text x="72" y="52" fill="#002c38">#fdf5e2</text></g>
     <g transform="translate(642 18)"><rect width="144" height="72" rx="8" fill="#637981"/><text x="72" y="31" fill="#fdf5e2">Muted</text><text x="72" y="52" fill="#fdf5e2">#637981</text></g>
     <g transform="translate(798 18)"><rect width="144" height="72" rx="8" fill="#29a298"/><text x="72" y="31" fill="#001419">Cyan / accent</text><text x="72" y="52" fill="#001419">#29a298</text></g>
