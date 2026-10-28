@@ -23,13 +23,13 @@ the palette of [Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nv
 From the Omarchy menu, open **Install > Style > Theme** and paste:
 
 ```text
-https://github.com/R7rainz/omarchy-solarized-japan.git
+https://github.com/R7rainz/omarchy-solarized-japan-theme.git
 ```
 
 Or install from a terminal:
 
 ```bash
-omarchy theme install https://github.com/R7rainz/omarchy-solarized-japan.git
+omarchy theme install https://github.com/R7rainz/omarchy-solarized-japan-theme.git
 ```
 
 Apply the theme manually with:

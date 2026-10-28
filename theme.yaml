@@ -5,7 +5,7 @@ display_name: Solarized Japan
 version: 1.1.0
 author: Ronak Kamboj
 description: A dark Japanese-inspired Omarchy theme using the exact Solarized Osaka palette and clean-painterly scenery.
-repository: https://github.com/R7rainz/omarchy-solarized-japan
+repository: https://github.com/R7rainz/omarchy-solarized-japan-theme
 license: Apache-2.0
 variant: dark
 mood: ["dark"]
